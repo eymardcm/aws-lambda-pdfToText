@@ -11,9 +11,9 @@ Resources:
       Description: ''
       MemorySize: 512
       Timeout: 900
-      Role: 'arn:aws:iam::844028273225:role/lambda_s3'
+      Role: 'arn:aws:iam::354918367888:role/lambda_s3'
       Environment:
         Variables:
-          TARGET_BUCKET: gl-inter-store
+          TARGET_BUCKET: intermediary-storage-ce
       Layers:
         - 'arn:aws:lambda:ap-northeast-1:844028273225:layer:tika:1'
